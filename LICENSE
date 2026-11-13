@@ -1,0 +1,73 @@
+MIT License
+
+Copyright (c) 2026 YOUR-GITHUB-USERNAME
+Copyright (c) 2025 Jesse Vincent (Superpowers, of which this project is a fork)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Third-party notices
+
+just-enough contains material copied or adapted from the projects below. Each
+is under the MIT License, and its copyright notice and permission notice are
+kept here as that license requires.
+
+1. Superpowers - https://github.com/obra/superpowers
+   just-enough is a fork of Superpowers 7.0.2: its skills, hooks, scripts,
+   tool adapters, tests and docs, renamed and changed.
+
+   Copyright (c) 2025 Jesse Vincent
+
+2. Ponytail - https://github.com/DietrichGebert/ponytail
+   Used in: hooks/meter/ and tests/meter/ (adapted from its band); the audit
+   and shortcuts skills (adapted from ponytail-audit and ponytail-debt); the
+   review checks in skills/requesting-code-review/code-reviewer.md (adapted
+   from ponytail-review); the least-code rules across the skills (adapted
+   from its core skill).
+
+   Copyright (c) 2026 DietrichGebert
+
+3. andrej-karpathy-skills - https://github.com/multica-ai/andrej-karpathy-skills
+   Used in: the think-first, simplicity, surgical-change and goal-driven
+   rules across the skills (adapted from its karpathy-guidelines skill).
+
+   Copyright (c) the andrej-karpathy-skills contributors
+
+The following permission notice applies to each of the three projects above:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+CODE_OF_CONDUCT.md is adapted from the Contributor Covenant 3.0, licensed
+under CC BY-SA 4.0; see its Attribution section.

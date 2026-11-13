@@ -1,0 +1,6 @@
+{
+  "name": "just-enough",
+  "description": "Brainstorm, plan, test first, review and finish, writing only the code the task needs. Built on Superpowers, Ponytail and the Karpathy guidelines.",
+  "version": "0.2.0",
+  "contextFileName": "GEMINI.md"
+}

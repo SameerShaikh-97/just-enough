@@ -1,0 +1,22 @@
+{
+  "name": "just-enough",
+  "version": "0.2.0",
+  "description": "Brainstorm, plan, test first, review and finish, writing only the code the task needs. Built on Superpowers, Ponytail and the Karpathy guidelines.",
+  "author": {
+    "name": "YOUR-GITHUB-USERNAME",
+    "url": "https://github.com/YOUR-GITHUB-USERNAME"
+  },
+  "homepage": "https://github.com/YOUR-GITHUB-USERNAME/just-enough",
+  "repository": "https://github.com/YOUR-GITHUB-USERNAME/just-enough",
+  "license": "MIT",
+  "keywords": [
+    "brainstorming",
+    "subagent-driven-development",
+    "skills",
+    "planning",
+    "tdd",
+    "debugging",
+    "code-review",
+    "workflow"
+  ]
+}

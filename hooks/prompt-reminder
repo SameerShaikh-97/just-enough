@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# UserPromptSubmit hook: one-line nudge to pick a skill when the prompt looks like coding work.
+# The session-start rule loads once; in a long chat it can fade, and this keeps it in view.
+# Bash builtins only, like session-start: no fork, no PATH needed.
+
+set -uo pipefail
+
+input=""
+IFS= read -r -d '' input || true
+
+# Keep only what follows the "prompt" key, so the session path and cwd before it are not matched.
+case "$input" in
+  *'"prompt"'*) text="${input#*\"prompt\"}" ;;
+  *) exit 0 ;;
+esac
+# nocasematch, not ${text,,}: macOS still ships bash 3.2.
+shopt -s nocasematch
+
+# A slash command already names its skill.
+[[ $text =~ ^[[:space:]]*:[[:space:]]*\"/ ]] && exit 0
+
+# shortcut: keyword match, not understanding; a miss only skips the nudge, a false hit costs one
+# line that tells the model to ignore it. Tune the list if either gets annoying.
+words='fix|bug|error|exception|crash|stack trace|failing|fails|broken|debug|implement|refactor|rename|function|method|class|endpoint|api|component|variable|test|compile|build|deploy|migrat|repo|commit|branch|merge|pull request|review|audit|code|script|feature|add a|change the|update the|remove the'
+[[ $text =~ (^|[^a-z])($words) ]] || exit 0
+
+trap '' PIPE
+printf '%s\n' '{"hookSpecificOutput":{"hookEventName":"UserPromptSubmit","additionalContext":"just-enough: if this message asks for a change to code, load the matching just-enough skill with the Skill tool before anything else (tiny-job for a one-place change to existing code, brainstorming for anything new or bigger, systematic-debugging for a bug with an unknown cause, requesting-code-review, audit or shortcuts when asked). If it changes no code, ignore this line."}}' 2>/dev/null || true
+exit 0

@@ -1,0 +1,27 @@
+{
+  "name": "just-enough",
+  "displayName": "just-enough",
+  "version": "0.2.0",
+  "description": "Brainstorm, plan, test first, review and finish, writing only the code the task needs. Built on Superpowers, Ponytail and the Karpathy guidelines.",
+  "logo": "assets/antigravity-logo.png",
+  "suggestedPrompts": [
+    "I've got an idea for something I'd like to build",
+    "Let's figure out why this broke"
+  ],
+  "category": "Developer Tools",
+  "keywords": [
+    "skills",
+    "tdd",
+    "debugging",
+    "collaboration",
+    "best-practices",
+    "workflows"
+  ],
+  "author": {
+    "name": "YOUR-GITHUB-USERNAME",
+    "url": "https://github.com/YOUR-GITHUB-USERNAME"
+  },
+  "homepage": "https://github.com/YOUR-GITHUB-USERNAME/just-enough",
+  "repository": "https://github.com/YOUR-GITHUB-USERNAME/just-enough",
+  "license": "MIT"
+}

@@ -1,0 +1,6 @@
+name: just-enough
+version: 0.2.0
+description: just-enough skills and workflow bootstrap for Hermes Agent
+author: YOUR-GITHUB-USERNAME
+provides_hooks:
+  - pre_llm_call

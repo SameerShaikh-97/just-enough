@@ -1,0 +1,20 @@
+{
+  "name": "just-enough",
+  "description": "Brainstorm, plan, test first, review and finish, writing only the code the task needs. Built on Superpowers, Ponytail and the Karpathy guidelines.",
+  "owner": {
+    "name": "YOUR-GITHUB-USERNAME",
+    "url": "https://github.com/YOUR-GITHUB-USERNAME"
+  },
+  "plugins": [
+    {
+      "name": "just-enough",
+      "description": "Brainstorm, plan, test first, review and finish, writing only the code the task needs. Built on Superpowers, Ponytail and the Karpathy guidelines.",
+      "version": "0.2.0",
+      "source": "./",
+      "author": {
+        "name": "YOUR-GITHUB-USERNAME",
+        "url": "https://github.com/YOUR-GITHUB-USERNAME"
+      }
+    }
+  ]
+}

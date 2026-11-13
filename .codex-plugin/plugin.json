@@ -1,0 +1,47 @@
+{
+  "name": "just-enough",
+  "version": "0.2.0",
+  "description": "Brainstorm, plan, test first, review and finish, writing only the code the task needs. Built on Superpowers, Ponytail and the Karpathy guidelines.",
+  "author": {
+    "name": "YOUR-GITHUB-USERNAME",
+    "url": "https://github.com/YOUR-GITHUB-USERNAME"
+  },
+  "homepage": "https://github.com/YOUR-GITHUB-USERNAME/just-enough",
+  "repository": "https://github.com/YOUR-GITHUB-USERNAME/just-enough",
+  "license": "MIT",
+  "keywords": [
+    "brainstorming",
+    "subagent-driven-development",
+    "skills",
+    "planning",
+    "tdd",
+    "debugging",
+    "code-review",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "hooks": {},
+  "interface": {
+    "displayName": "just-enough",
+    "shortDescription": "Plan the least code, test first, change only what the task needs",
+    "longDescription": "Use just-enough to guide agent work through brainstorming, planning, test-driven development, systematic debugging, code review and finishing, always with the least code that fully solves the task.",
+    "developerName": "YOUR-GITHUB-USERNAME",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "I've got an idea for something I'd like to build.",
+      "Let's add a feature to this project."
+    ],
+    "websiteURL": "https://github.com/YOUR-GITHUB-USERNAME/just-enough",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/just-enough-small.svg",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
+}

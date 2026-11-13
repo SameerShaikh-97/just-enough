@@ -1,0 +1,20 @@
+{
+  "name": "just-enough",
+  "interface": {
+    "displayName": "just-enough"
+  },
+  "plugins": [
+    {
+      "name": "just-enough",
+      "source": {
+        "source": "url",
+        "url": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
